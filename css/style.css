@@ -36,8 +36,7 @@ body{
     top:0;
     left: 0;
     width: 100%;
-    padding: 2rem 7%;
-    //background: yellowgreen;
+    padding: 2rem 7%;    
     display: flex;
     align-items: center;
     z-index: 100;
@@ -88,7 +87,7 @@ section{
 }
 
 .home .home-content{
- max-height: 44rem;   
+ max-width: 44rem;   
 }
 
 .home-content h3 {
@@ -190,12 +189,21 @@ section{
 
 }
 
+.home .profession-box .profession:nth-child(1) i{
+    margin-right: 40px;
+}
+
+.home .profession-box .profession:nth-child(2), 
+.home .profession-box .profession:nth-child(4){ 
+    padding-bottom: 20px;
+}
+
 .home .profession i{
     font-size: 3.8rem;
 }
 
 .home .profession h3{
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     line-height: 1;
     font-weight: 600;
 }
@@ -207,12 +215,6 @@ section{
     border: 3px solid var(--main-color);
     border-radius: 50%;
 }
-
-.home .profession-box .profession:nth-child(1) i{
-    margin-right: 15px;
-}
-
-.home .profession-box .profession:nth-child(2), .home .profession-box .profession:nth-child(4){ padding-bottom: 20px;}
 
 
 .home .profession-container .overlay{
