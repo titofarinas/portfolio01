@@ -101,6 +101,7 @@ section{
 .home-content h1{
     font-size: 5.6rem;
     font-weight: 700;
+    margin-bottom: .3rem;
 }
 
 .home-content p {
@@ -126,4 +127,24 @@ section{
 .home-content .social-media a:hover {
     background: var(--main-color);
     color: var(--white-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.2rem 2.8rem;
+    background: var(--main-color);
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    border: .2rem solid transparent;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background: transparent;
+    color:var(--main-color);
+    border-color: var(--main-color);
 }
